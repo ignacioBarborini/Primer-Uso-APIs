@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script async src="./index.js"></script>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <form class="form" action="">
+                <input class="search" name="search" type="text" placeholder="Buscar Productos, marcas y mas...">
+                <button class="boton">Buscar</button>
+            </form>
+        </div>
+    </header>
+    
+    <div class="results"></div>
+
+    <template id="template-item">
+        <a class="link" href="">
+            <div class="contenedorProd" >
+                    <div class="product">
+                        <div class="content-img">
+                            <img class="imgProd" src="https://www.lg.com/ar/images/lavarropas/MD05962336/gallery/medium01.jpg" alt="">
+                        </div>
+                        <div class="content-info">
+                            <h3 class="titleProd">titulo prueba</h3>
+                            <p class="estadoProd">nuevo</p>
+                            <p class="prodVendidos">25</p>
+                        </div>
+                        <div class="content-price">
+                            <p class="price">2300</p>
+                        </div>
+                    </div>
+                </div>
+        </a>
+
+    </template>
+</body>
+</html>
